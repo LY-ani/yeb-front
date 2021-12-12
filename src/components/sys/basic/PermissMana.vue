@@ -1,5 +1,5 @@
 <template>
-  <div>test2</div>
+  <div>权限组</div>
 </template>
 
 <script>

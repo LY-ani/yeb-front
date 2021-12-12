@@ -1,11 +1,9 @@
 <template>
-  <div>test1</div>
+  <div>部门管理</div>
 </template>
 
 <script>
-export default {
-  name: "Test1",
-};
+export default {};
 </script>
 
 <style>
