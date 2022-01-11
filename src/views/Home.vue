@@ -7,9 +7,7 @@
           <span class="el-dropdown-link">
             {{ user.name }}
             <i>
-              <img
-                src="http://img02.liwushuo.com/image/181113/od1uky3lg.jpg-w720"
-              />
+              <img :src="user.userFace" />
             </i>
           </span>
           <el-dropdown-menu slot="dropdown">
@@ -72,6 +70,7 @@
 </template>
 
 <script>
+// src="http://img02.liwushuo.com/image/181113/od1uky3lg.jpg-w720"
 /*
  * 把菜单和路由数据统一起来，将路由数据动态渲染到菜单上
  * router/index.js： 将home路由配置的name改成‘导航一’,item.name用到

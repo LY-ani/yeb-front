@@ -25,7 +25,9 @@ import {
 
 Vue.config.productionTip = false
 
-Vue.use(ElementUI);
+Vue.use(ElementUI, {
+  size: 'small'
+});
 
 // 以插件的形式使用： this.postRequest
 Vue.prototype.postRequest = postRequest;
